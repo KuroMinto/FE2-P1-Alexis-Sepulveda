@@ -175,8 +175,13 @@ footer {
         font-size: 2.5rem;
     }
 
+    header p {
+        font-size: 1rem;
+    }
+
     .product-highlight, .features, .benefits, .specifications, .advantages {
         padding: 1.5rem;
+        margin: 1rem auto;
     }
 
     .product-highlight h2, .features h2, .benefits h2, .specifications h2, .advantages h2 {
@@ -184,6 +189,40 @@ footer {
     }
 
     .product-highlight p, .features p, .benefits p, .advantages p {
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+
+    .specifications table {
+        font-size: 0.9rem;
+    }
+
+    .specifications th, .specifications td {
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    .product-highlight h2, .features h2, .benefits h2, .specifications h2, .advantages h2 {
+        font-size: 1.5rem;
+    }
+
+    .product-highlight p, .features p, .benefits p, .advantages p {
+        font-size: 0.9rem;
+    }
+
+    .specifications table {
+        font-size: 0.8rem;
+    }
+
+    .specifications th, .specifications td {
+        padding: 0.4rem;
     }
 }
