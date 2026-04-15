@@ -8,4 +8,10 @@ Nombre del producto: Origin
 Notebook orientado a gaming, con procesador de Intel de 14va generación, GPU RTX 4060, 16 Gb Ram y 2 TB de almacenamiento
 Una sección destacada donde se presente el producto de forma atractiva y clara."
 Propósito: Crear la estructura inicial de la página web, para así empezar a trabajar sobre esta.
-Evaluación: 
+Evaluación: Útil
+
+Etapa: Mejora visual
+Prompt:
+"El cliente está feliz con la etapa inicial, pero ahora hay que mejorar el estilo visual de la página, los estilos deben estar más trabajados, la distribución del contenido debe ser más clara y debe lograrse una apariencia moderna."
+Propósito: Mejorar el diseño visual de la página web, para que se más atractiva, clara y moderna.
+Evaluación: Útil
