@@ -83,6 +83,81 @@ header p {
     top: 0;
 }
 
+/* Features section */
+.features, .benefits, .specifications, .advantages {
+    background: #fff;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.features h2, .benefits h2, .specifications h2, .advantages h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.features p, .benefits p, .advantages p {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.features ul, .benefits ul, .advantages ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features li, .benefits li, .advantages li {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    color: #444;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.features li::before, .benefits li::before, .advantages li::before {
+    content: "✔";
+    color: #1a73e8;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Specifications table */
+.specifications table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.specifications th, .specifications td {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: left;
+}
+
+.specifications th {
+    background: #1a73e8;
+    color: #fff;
+    font-weight: 600;
+}
+
+.specifications tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.specifications tr:hover {
+    background: #f1f1f1;
+}
+
 /* Footer styles */
 footer {
     text-align: center;
@@ -100,15 +175,15 @@ footer {
         font-size: 2.5rem;
     }
 
-    .product-highlight {
-        padding: 2rem;
+    .product-highlight, .features, .benefits, .specifications, .advantages {
+        padding: 1.5rem;
     }
 
-    .product-highlight h2 {
-        font-size: 2rem;
+    .product-highlight h2, .features h2, .benefits h2, .specifications h2, .advantages h2 {
+        font-size: 1.8rem;
     }
 
-    .product-highlight p {
+    .product-highlight p, .features p, .benefits p, .advantages p {
         font-size: 1.1rem;
     }
 }

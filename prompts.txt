@@ -15,3 +15,20 @@ Prompt:
 "El cliente está feliz con la etapa inicial, pero ahora hay que mejorar el estilo visual de la página, los estilos deben estar más trabajados, la distribución del contenido debe ser más clara y debe lograrse una apariencia moderna."
 Propósito: Mejorar el diseño visual de la página web, para que se más atractiva, clara y moderna.
 Evaluación: Útil
+
+Etapa: Mejora visual
+prompt: "Hice los cambios en una branch llamada "cambios-visuales" ¿cómo hago el proceso para que vaya a la main?"
+Propósito: Poder, correctamente, hacer los cambios visuales en una branch aparte de main y hacer el commit desde esta neuva branch a la principal.
+Evaluación: Útil (No solo sirve para esta etapa)
+
+Etapa: Incorporación de contenido
+Prompt:
+"Ahora el producto necesita estar mejor explicado para los usuarios, se deben agregar nuevas secciones como podrían ser:
+
+Características principales
+Beneficios del producto
+Especificaciones técnicas
+Posibles usos o ventajas frente a otros productos"
+"Actualiza el style.css con lo cambiado en el prompt anterior"
+Propósito: Agregar nuevas secciones al archivo HTML y agregarles estilos en el style.css
+Evaluación: Útil
