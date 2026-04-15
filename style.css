@@ -158,6 +158,57 @@ header p {
     background: #f1f1f1;
 }
 
+/* Comparison section */
+.comparison {
+    background: #fff;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comparison h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.comparison p {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.comparison table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.comparison th, .comparison td {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: left;
+}
+
+.comparison th {
+    background: #1a73e8;
+    color: #fff;
+    font-weight: 600;
+}
+
+.comparison tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.comparison tr:hover {
+    background: #f1f1f1;
+}
+
 /* Footer styles */
 footer {
     text-align: center;

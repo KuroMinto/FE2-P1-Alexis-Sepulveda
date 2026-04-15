@@ -32,3 +32,15 @@ Posibles usos o ventajas frente a otros productos"
 "Actualiza el style.css con lo cambiado en el prompt anterior"
 Propósito: Agregar nuevas secciones al archivo HTML y agregarles estilos en el style.css
 Evaluación: Útil
+
+Etapa: Adaptación a dispositivos móviles
+Prompt:
+"La página web será principalmente visualizada en dispositivos móviles, por ello se necesita que se adapte el diseño de pantallas pequeñas, se asegure que la legibilidad sea correcta y evitar problemas con la distribución y superposición de elementos."
+Propósito: Mejorar el apartado responsive de la página web, para que no haya problemas al ser visualizada en dispositivos móviles.
+Evaluación: Parcialmente Útil
+
+Etapa: Mejora final obligatoria
+Prompt:
+"Ahora necesito que crees una sección de comparativa con algún otro producto parecido del mercado, esta comparativa debe mostrar sus características ordenadas, por lo menos 2-3 atributos técnicos relevantes y la presentación de la información debe ser clara y ordenada."
+Propósito: Agregar una sección comparativa con algún otro producto del mercado, para resaltar las características del producto propio.
+Evaluación: Parcialmente Útil
